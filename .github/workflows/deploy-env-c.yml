@@ -2,9 +2,9 @@ name: deploy-contoso-traders-env-C
 
 on:
   workflow_dispatch:
-  push:
-    branches: ["main"]
-    paths-ignore: ["docs/**", "demo-scripts/**"]
+  # push:
+  #   branches: ["main"]
+  #   paths-ignore: ["docs/**", "demo-scripts/**"]
 
 env:
   SUFFIX: envccc
